@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -28,13 +27,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="milk1" translatesAutoresizingMaskIntoConstraints="NO" id="787-Tz-rbM">
+                                <rect key="frame" x="0.0" y="561" width="414" height="335"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.86451101299999999" green="0.85635489229999995" blue="0.86956840749999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KME-Zf-KQZ" secondAttribute="trailing" constant="153" id="9IA-La-5YL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aIY-5t-0Ib" secondAttribute="trailing" constant="57" id="FP8-Vh-k3O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="787-Tz-rbM" secondAttribute="trailing" id="Pa9-K2-NYb"/>
                             <constraint firstItem="aIY-5t-0Ib" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58" id="TLt-BC-SMi"/>
+                            <constraint firstAttribute="bottom" secondItem="787-Tz-rbM" secondAttribute="bottom" id="W3U-V7-e9V"/>
+                            <constraint firstItem="787-Tz-rbM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dJb-xq-gLg"/>
                             <constraint firstItem="KME-Zf-KQZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="154" id="oWb-wU-avs"/>
                         </constraints>
                     </view>
@@ -45,8 +50,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="milk1" width="300" height="150"/>
     </resources>
 </document>
