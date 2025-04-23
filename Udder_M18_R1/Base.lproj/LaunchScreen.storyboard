@@ -28,14 +28,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cow1" translatesAutoresizingMaskIntoConstraints="NO" id="O7L-4e-lBe">
+                                <rect key="frame" x="0.0" y="554.5" width="414" height="341.5"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KME-Zf-KQZ" secondAttribute="trailing" constant="153" id="9IA-La-5YL"/>
+                            <constraint firstItem="O7L-4e-lBe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Agx-5K-KT4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aIY-5t-0Ib" secondAttribute="trailing" constant="57" id="FP8-Vh-k3O"/>
                             <constraint firstItem="aIY-5t-0Ib" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58" id="TLt-BC-SMi"/>
+                            <constraint firstItem="O7L-4e-lBe" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hjV-TI-NNX"/>
                             <constraint firstItem="KME-Zf-KQZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="154" id="oWb-wU-avs"/>
+                            <constraint firstAttribute="bottom" secondItem="O7L-4e-lBe" secondAttribute="bottom" id="q6G-Aj-sl0"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -45,6 +51,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="cow1" width="341.33334350585938" height="341.33334350585938"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
