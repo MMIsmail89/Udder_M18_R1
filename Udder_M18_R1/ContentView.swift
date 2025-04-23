@@ -22,4 +22,9 @@ struct ContentView_Previews: PreviewProvider {
     func milkProvider(Q: String){
         
     }
+
+    
+    func cowProvider(Q: String){
+        
+    }
 }
